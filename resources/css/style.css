@@ -1,0 +1,7 @@
+/* Universal Styles */
+* {
+    margin: auto;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
