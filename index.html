@@ -55,10 +55,10 @@
         
         <section>
             <div class="banner-section">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./resources/images/hero.png" class="d-block w-100" alt="Hero banner">
+                            <img src="./resources/images/hero.png" class="d-block mx-100" alt="Hero banner">
                             <div class="carousel-caption bg-transparent py-0">
                                 <h2 class="text-center font-weight-bold mb-3">Välj en crossover utöver det vanliga</h2>
                                 <button type="button" class="btn btn-danger rounded-pill">Läs mer</button>
@@ -68,8 +68,8 @@
                 </div>
             </div>
 
-            <div class="highlights-wrapper">
-                <div class="row justify-content-center mb-3">
+            <div class="highlights-section">
+                <div class="row justify-content-center">
                     <div class="col col-4">
                         <a class="card text-decoration-none border-0" href="#">
                             <img src="./resources/images/page-1.png" class="card-img-top" alt=""/>
@@ -99,25 +99,10 @@
                 </div>
             </div>
           
-            <!-- <div class="product section">
-
-                <div class="new-car">
-                    <img src="./resources/images/page-1.png" class="new-car-logo" alt="new car product">
-                    <h5 class="product-subtitle">Hitta till oss i Göteborg</h5>
-                </div>
-                <div class="used-car">
-                    <img src="./resources/images/page-1.png" class="used-car-logo" alt="used car product">
-                    <h5 class="product-subtitle">Se våra begagnade bilar</h5>
-                </div>
-                <div class="car-service">
-                    <img src="./resources/images/page-1.png" class="car-service-logo" alt="car service product">
-                    <h5 class="product-subtitle">Dags för service på bilen</h5>
-                </div>
-            </div> -->
-            <div class="product section">
+            <div class="product-section">
                 <div class="row justify-content-center mb-3">
                     <div class="col col-md-3">
-                        <a class="card text-decoration-none border-0">
+                        <a class="card text-decoration-none border-0" href="#">
                             <img src="./resources/images/group_2.png" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h4 class="card-title">Toyota Business Plus – Non Stop</h4>
@@ -128,7 +113,7 @@
                     </div>  
 
                     <div class="col col-md-3">
-                        <a class="card text-decoration-none border-0">
+                        <a class="card text-decoration-none border-0" href="#">
                             <img src="./resources/images/group-2.png" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h4 class="card-title">Flex Privatleasing</h4>
@@ -139,7 +124,7 @@
                     </div>
 
                     <div class="col col-md-3">
-                        <a class="card text-decoration-none border-0">
+                        <a class="card text-decoration-none border-0" href="#">
                             <img src="./resources/images/group-3.png" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h4 class="card-title">Hyr en bil!</h4>
@@ -150,7 +135,7 @@
                     </div>
                 
                     <div class="col-8 col-md-3">
-                        <a class="card text-decoration-none border-0">
+                        <a class="card text-decoration-none border-0" href="#">
                             <img src="./resources/images/group-4.png" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h4 class="card-title">Boka provkörning online</h4>
@@ -161,28 +146,50 @@
                     </div>
                 </div>
             </div>
-         
-            <div class="contact section" style="background:url(./resources/images/group-13.png) no-repeat; background-size: cover;">
-                <div class="bg-transparent text-white text-center">
-                    <h2 class="text-center">Kontakt/öppettider</h2>
-                    <div class=""> 
-                        <div class="d-inline p-3 rounded-pill bg-white">
-                            <span>Anläggning</span>
-                            <p>Mölndal</p>
-                            <img src="./resources/images/shape.png" alt="">
-                        </div>
-                        <div>
-                            <button type="button" class="btn btn-danger rounded-pill ">Visa</button>
+
+            <div class="contact-section text-center bg-image">
+                <div class="mask">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <div class="">
+                            <h2 class="mb-5 text-white">Kontakt/öppettider</h2>
+                            <div class="d-inline mb-3 rounded-pill bg-white drop p-3 mx-2">
+                                
+                                <span class="dropdown"> 
+                                    <span>Anläggning</span>
+                                    <a class="dropdown-toggle text-decoration-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mölndal</a>
+                                </span>
+                            </div>
+                            <a class="btn btn-danger rounded-pill" href="#" role="button">Visa</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body text-center">
-                    <h1 class="card-title">Välkommen till Toyota Center Göteborg</h1>
-                    <h3 class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel bibendum enim, nec aliquam tortor. Nunc in quam tincidunt, viverra nulla ac, fermentum orci.</h3>
-                    <button type="button" class="btn btn-light rounded-pill">Läs mer</button>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class=" bg-transparent">
+                    <h2 class="text-center text-white">Kontakt/öppettider</h2>
+                    <div class=""> 
+                        <div class="d-inline mb-3 rounded-pill bg-white">
+                            <span>Anläggning</span>
+                            <div>
+                                <select>
+                                    <option>Mölndal</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-danger rounded-pill ">Visa</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="welcome section">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h1 class="card-title">Välkommen till Toyota Center Göteborg</h1>
+                        <h3 class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel bibendum enim, nec aliquam tortor. Nunc in quam tincidunt, viverra nulla ac, fermentum orci.</h3>
+                        <button type="button" class="btn btn-light rounded-pill">Läs mer</button>
+                    </div>
                 </div>
             </div>
 
