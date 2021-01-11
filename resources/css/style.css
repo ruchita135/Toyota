@@ -6,16 +6,44 @@
     height: auto;
 }
 
-header {
+
+/* Header */
+
+nav {
     height: 80px;
-    padding: 0 30px;
+    padding: 0px 30px;
     box-shadow: 0 2px 0 0 #e50000;
     background-color: #ffffff;
 }
 
+nav .container-fluid{
+    height: 80px;
+}
+
+nav ul {
+    margin-left: 30px;
+}
+nav .border-start {
+    height: 80px;
+    padding-left: 30px;
+}
+
+.border-start img {
+    width: 71px;
+    height: 59px;
+    margin: 10px 0;
+}
+
+header .nav-item {
+    padding-right: 22px;
+}
+
+/* Banner Section */
+
 .banner-section {
     margin: 1px 0 0;
     object-fit: contain;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #000000);
     
 }
 
@@ -23,6 +51,19 @@ header {
     height: 600px;
     width: 100%;
 }
+
+.carousel-item .slide-body {
+    width: 633px;
+    height: 225px;
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    z-index: 100;
+    color: aqua;
+
+}
+/* Highlights Section */
 
 .highlights-section {
     display: block;
@@ -56,11 +97,72 @@ header {
    
 }
 .highlights-section .card-text {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: center;
     color: #202020;
 }
 
+/* Products Section */
+
+.product-section {
+    width: 1440px;
+    height: 619px;
+    padding: 100px 165px;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.product-section .row {
+    height: 419px;
+    margin: 0;
+}
+
+.product-section .col {
+    width: 255px;
+    height: 419px;
+    margin: 0;
+}
+
+.product-section img {
+    width: 255px;
+    height: 255px;
+    margin: 0;
+}
+
+.product-section .card-body {
+    padding: 0;
+    margin: 0;
+    color: #202020;
+}
+
+.product-section .card-title {
+    margin: 20px 30px 10px 0;
+    padding-right: 20px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.product-section .card-text {
+    margin: 10px 0;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: #555555;
+} 
 
 
+/* Contact Section */
 
 .contact {
     background-image: url(../images/group-13.png);
@@ -79,6 +181,4 @@ header {
     color: #ffffff;
     font-size: 56px;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
 }
