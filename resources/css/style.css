@@ -7,7 +7,7 @@
 }
 
 h1 {
-    font-family: ToyotaDisplay;
+    font-family: 'ToyotaDisplay', 'OpenSans';
     font-size: 66px;
     font-weight: bold;
     font-stretch: normal;
@@ -18,15 +18,14 @@ h1 {
 }
 
 h2 {
-    font-family: ToyotaDisplay;
+    font-family: 'Open Sans', sans-serif;
     font-size: 56px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 h3 {
@@ -37,7 +36,7 @@ h3 {
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
-    color: #202020;
+    color: #ffffff;
 }
 
 h4 {
@@ -61,6 +60,20 @@ p{
     letter-spacing: normal;
     color: #555555;
 }
+
+.read-more-btn {
+    margin-top: 30px;
+    width: 120px;
+    height: 54px;
+    text-align: left;
+}
+
+.btn-toyota-primary {
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #e50000;
+}
+
 /* Header */
 
 nav {
@@ -109,14 +122,12 @@ header .nav-item {
 .carousel-item .slide-body {
     width: 633px;
     height: 225px;
-    display: block;
     position: absolute;
     left: 100px;
     bottom: 100px;
     z-index: 100;
-    color: aqua;
-
 }
+
 /* Highlights Section */
 
 .highlights-section {
@@ -230,9 +241,3 @@ header .nav-item {
     background-color: rgba(32,32,32,0.6);
 }
 
-.text-white {
-    margin: 100px 0;
-    color: #ffffff;
-    font-size: 56px;
-    font-weight: normal;
-}
