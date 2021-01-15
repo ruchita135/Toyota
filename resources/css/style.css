@@ -4,7 +4,7 @@
     box-sizing: border-box;
     width: auto;
     height: auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
 
 h3 {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -57,7 +57,6 @@ h5 {
 }
 
 p{
-    font-family: OpenSans;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -71,6 +70,7 @@ b {
     font-size: 10px;
     font-weight: normal;
     color: #555555;
+    padding-left: 4px;
 }
 
 .read-more-btn {
@@ -80,9 +80,10 @@ b {
     text-align: left;
 }
 
-.btn-toyota-primary {
+.btn-toyota-primary, .btn-toyota-primary:hover{
+    text-decoration: none;
     padding: 15px 30px;
-    color: #fff;
+    color: #ffffff;
     background-color: #e50000;
     font-size: 16px;
     font-weight: normal;
@@ -183,8 +184,13 @@ header .nav-item {
 .highlights-section .card {
     padding: 56px 0 60px 0;
     text-align: center;
-   
+    background-color: #f5f5f5;
 }
+
+.highlights-section .card:hover {
+    background-color: #ffffff;;  
+}
+
 .highlights-section .card-text {
     font-size: 22px;
     font-weight: normal;
@@ -307,15 +313,10 @@ header .nav-item {
     text-align: left;
 }
 
-.contact-btn .dropdown-toggle {
-    position: relative;
-  }
-  
-.contact-btn .dropdown-toggle::after {
-    position: absolute;
-    right: 20px;
-    bottom: 45%;
-  }
+.contact-section select {
+    background-color: #f5f5f5;
+    color: #555555;
+}
 
 /* Welcome Section  */
 
@@ -354,11 +355,55 @@ header .nav-item {
     background-color: #f5f5f5;
 }
 
+.offer-title-wrapper {
+    height: 40px;
+    margin: 0 0 50px 0;
+}
+
 .offer-title {
     color: #202020;
-    margin: 0 0 50px 0;
+    font-weight: bold;
 }
 
 .fa-chevron-circle-left {
     padding-right: 10px;
 }
+
+.offer-section .row {
+    width: 100%;
+}
+
+.offer-section .card {
+    width: 350px !important;
+    height: 523px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.offer-section img {
+    width: 350px;
+    height: 250px;
+}
+
+.offer-section .card-body {
+    padding: 20px 30px 0 30px;
+}
+
+.offer-section .card-title {
+    margin-bottom: 10px;
+}
+
+.offer-section .card-text .small {
+    font-size: 14px;
+}
+
+.offer-section .btn {
+    width: 290px;
+    height: 64px;
+    margin: 30px;
+    padding: 20px 115px;
+    position: absolute;
+    bottom: 0;
+}
+
+
