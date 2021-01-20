@@ -406,4 +406,62 @@ header .nav-item {
     bottom: 0;
 }
 
+footer {
+    border-top: 2px solid #e50000;
+}
+
+.footer {
+    width: 1440px;
+    height: 323px;
+    padding: 50px 0;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-options {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item {
+    display: inline-block;
+}
+
+.footer-link {
+    text-decoration: none; 
+    color: #555555;
+    padding: 0 15px;
+}
+
+.footer .btn {
+    padding: 15px 30px;
+    color: #202020;
+}
+
+.social-sign {
+    width: 1440px;
+    padding: 20px 0;
+}
+
+.social-sign a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000000;
+    margin: 0;
+}
+
+.social-sign .fa {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 15px;
+    border: solid 1px #e1e1e1;
+    border-radius: 50%;
+}
 
