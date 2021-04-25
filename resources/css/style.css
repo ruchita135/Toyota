@@ -214,7 +214,7 @@ header .navbar-toggler {
 
 .highlights-section img {
     max-width: 92px;
-    min-height: 40px;
+    max-height: 40px;
     margin: auto;
 }
 
@@ -232,7 +232,7 @@ header .navbar-toggler {
 }
 
 .highlights-section .card:hover {
-    background-color: #ffffff;;  
+    background-color: #ffffff;  
 }
 
 .highlights-section .card-text {
@@ -552,7 +552,6 @@ footer {
     .carousel-item .slide-body {
         left: 20px;    
         bottom: 20px;
-        
     }
     
     .carousel-item .slide-body .text-left {
@@ -564,4 +563,31 @@ footer {
     .carousel-item .slide-body .read-more-btn {
         display: none;
     }
+
+    .highlights-section .card {
+        padding: 0;
+        display: block;
+        text-align: left;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        background-color: #ffffff;  
+    }
+
+    .highlights-section .card img{
+        padding: 0;
+        margin: 0 10px 0 0;
+        width: 40px;
+        height: 25px;
+    }   
+    .highlights-section .card-body {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .highlights-section .card-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
 }
+
